@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Stopwatch</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="stopwatch-container">
+    <h1 class="title">Stopwatch</h1>
+    <div class="time-display" id="time-display">00:00:00.00</div>
+    <div class="button-container">
+      <button class="btn start" id="start-btn">Start</button>
+      <button class="btn stop" id="stop-btn">Stop</button>
+      <button class="btn reset" id="reset-btn">Reset</button>
+      <button class="btn lap" id="lap-btn">Lap</button>
+      <button class="btn export" id="export-btn">Export Laps</button>
+      <button class="btn toggle-mode" id="mode-btn">Light Mode</button>
+    </div>
+    <ul class="lap-list" id="lap-list"></ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
